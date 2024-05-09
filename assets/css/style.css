@@ -515,6 +515,11 @@ body.active { overflow: hidden; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0.5; /* Add opacity to make the video faded */
+}
+
+.hero-content {
+  z-index: 1; /* Bring the text content to the front */
 }
 
 
