@@ -497,7 +497,6 @@ body.active { overflow: hidden; }
  * #HERO
 \*-----------------------------------*/
 
-Copy
 .hero {
   min-height: 750px;
   height: 100vh;
@@ -520,10 +519,17 @@ Copy
 }
 
 .hero-content {
-  z-index: 2; /* Bring the text content to the front */
-
+  z-index: 1; /* Bring the text content to the front */
+  color: white; /* Text color */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
 }
 
+.hero-subtitle {
+  font-size: 1.5rem;
+}
+
+.hero-title {
+  font-size: 3rem;+
 
 .hero-content { margin-top: 60px; }
 
